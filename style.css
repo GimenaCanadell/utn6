@@ -1,0 +1,78 @@
+.ContenedorMadre {
+    background-image: url(/img/bg-palm.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PrimerContenedor {
+    width: auto;
+    height: 200 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60 px;
+    margin-bottom: 100 px;
+}
+
+.SegundoContenedor {
+    margin-bottom: 60px;
+    width: auto;
+    height:280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TercerContenedor{
+    width: 300px;
+    align-self: center;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+
+}
+.TercerContenedor a{
+    color:black;
+    padding: 20 px;   
+}
+.TercerContenedor a i {
+    font-size: 32px;
+}
+
+.Avatar {
+    margin-bottom: 10 px;
+}
+
+.Nombre {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+}
+
+.Links {
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    padding: 8px;
+    border-radius: 20px;
+    justify-content:flex-start;      
+}
+.Links a {
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    
+}
+
+.Links i{
+    font-size: 16px;
+    color: rgb(1, 202, 1); 
+    padding-right: 150px;
+}
